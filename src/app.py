@@ -16,7 +16,7 @@ from typing import List, Optional
 import os
 from pathlib import Path
 
-from models import (
+from .models import (
     engine, create_tables, get_db, User, Activity, Team, Project,
     Achievement, Attendance, Workshop, TechnicalResource, ResourceCategory, Notice
 )
